@@ -43,4 +43,34 @@ main header .money {
 main header .money i {
   color: rgb(119, 185, 19);
   font-weight: 600;
+}
+main .search {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+main .search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+main .suggest {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: aqua;
+  padding: 6px 10px;
+  border-radius: 6px;
+  flex: 1;
+}
+main .profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: bisque;
+  padding: 6px 10px;
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
