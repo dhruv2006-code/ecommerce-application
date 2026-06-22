@@ -2,6 +2,10 @@
   font-family: helvetica2;
   src: url(./HelveticaNeueBold.otf);
 }
+@font-face {
+  font-family: helvetica3;
+  src: url(./HelveticaNeueLight.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -74,6 +78,7 @@ main .suggest {
 }
 main .suggest span {
   color: grey;
+  font-family: helvetica3;
 }
 main .profile {
   display: flex;
@@ -95,7 +100,61 @@ main .category a {
   text-decoration: none;
   color: white;
   transition: 0.3s ease-in-out;
+  font-family: helvetica2;
 }
 main .category a:hover {
   font-size: 20px;
+}
+main .category2 {
+  width: 100%;
+  height: 5vw;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+main .category2 .box {
+  background-image: url(https://i.pinimg.com/736x/24/03/a3/2403a34190b0ab3e91f00ccccfbb0f9c.jpg);
+  width: 22%;
+  height: 100%;
+  background-color: darkgoldenrod;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: top;
+  background-size: cover;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+}
+main .category2 .box p {
+  font-size: 15px;
+  font-family: helvetica2;
+  color: black;
+}
+main .category2 .box2 {
+  background-image: url(https://i.pinimg.com/736x/34/b3/66/34b36619fd0a8f5c9d839cbac030edb1.jpg);
+  width: 22%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: top;
+  background-size: cover;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+}
+main .category2 .box3 {
+  background-image: url(https://i.pinimg.com/736x/ee/c4/11/eec411a78248222aff34bf130d0ac223.jpg);
+  width: 22%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: top;
+  background-size: cover;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
