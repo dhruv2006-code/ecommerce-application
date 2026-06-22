@@ -1,7 +1,12 @@
+@font-face {
+  font-family: helvetica2;
+  src: url(./HelveticaNeueBold.otf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: helvetica2;
 }
 
 html, body {
@@ -14,7 +19,7 @@ html, body {
 main {
   width: 30%;
   height: 100%;
-  background-color: grey;
+  background-color: black;
   padding: 10px;
   border-radius: 20px;
 }
@@ -33,7 +38,7 @@ main header p {
 }
 main header .money {
   grid-column: 4/4;
-  width: 45px;
+  width: 50px;
   height: 25px;
   padding: 4px;
   background-color: white;
@@ -61,16 +66,36 @@ main .suggest {
   display: flex;
   align-items: center;
   gap: 6px;
-  background-color: aqua;
+  background: radial-gradient(at bottom, white, black 60%);
   padding: 6px 10px;
   border-radius: 6px;
   flex: 1;
+  color: white;
+}
+main .suggest span {
+  color: grey;
 }
 main .profile {
   display: flex;
   align-items: center;
   gap: 8px;
-  background-color: bisque;
   padding: 6px 10px;
   margin-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+main .category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3vh;
+}
+main .category a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+main .category a:hover {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
