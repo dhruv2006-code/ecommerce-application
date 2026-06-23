@@ -20,6 +20,10 @@ html, body {
   justify-content: center;
 }
 
+body {
+  background: radial-gradient(farthest-corner, black, white);
+}
+
 main {
   width: 30%;
   height: 100%;
@@ -107,8 +111,7 @@ main .category a:hover {
 }
 main .category2 {
   width: 100%;
-  height: 5vw;
-  background-color: aqua;
+  height: 7vw;
   padding: 5px;
   border-radius: 10px;
   display: flex;
@@ -117,9 +120,9 @@ main .category2 {
   text-transform: uppercase;
 }
 main .category2 .box {
-  background-image: url(https://i.pinimg.com/736x/24/03/a3/2403a34190b0ab3e91f00ccccfbb0f9c.jpg);
+  background-image: url(./men.png);
   width: 22%;
-  height: 100%;
+  height: 60%;
   background-color: darkgoldenrod;
   -o-object-fit: cover;
      object-fit: cover;
@@ -132,12 +135,14 @@ main .category2 .box {
 main .category2 .box p {
   font-size: 15px;
   font-family: helvetica2;
-  color: black;
+  color: white;
+  position: absolute;
+  top: 36%;
 }
 main .category2 .box2 {
-  background-image: url(https://i.pinimg.com/736x/34/b3/66/34b36619fd0a8f5c9d839cbac030edb1.jpg);
+  background-image: url(./women.png);
   width: 22%;
-  height: 100%;
+  height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: top;
@@ -146,10 +151,16 @@ main .category2 .box2 {
   text-align: center;
   padding: 20px;
 }
+main .category2 .box2 p {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 36%;
+}
 main .category2 .box3 {
-  background-image: url(https://i.pinimg.com/736x/ee/c4/11/eec411a78248222aff34bf130d0ac223.jpg);
+  background-image: url(./kids.png);
   width: 22%;
-  height: 100%;
+  height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
   background-position: top;
@@ -157,4 +168,20 @@ main .category2 .box3 {
   border-radius: 20px;
   text-align: center;
   padding: 20px;
+}
+main .category2 .box3 p {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 36%;
+}
+main .products .product-images img {
+  width: 150px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
