@@ -80,11 +80,15 @@ main .suggest {
   flex: 1;
   color: white;
 }
-main .suggest span {
-  color: grey;
-  font-family: helvetica3;
+main .suggest input {
+  background: radial-gradient(at bottom, white, black 60%);
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 3px 20px;
 }
-main .profile {
+
+.profile {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -93,23 +97,27 @@ main .profile {
   color: white;
   font-size: 20px;
 }
-main .category {
+
+.category {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 3vh;
 }
-main .category a {
+
+.category a {
   text-decoration: none;
   color: white;
   transition: 0.3s ease-in-out;
   font-family: helvetica2;
 }
-main .category a:hover {
+
+.category a:hover {
   font-size: 20px;
 }
-main .category2 {
+
+.category2 {
   width: 100%;
   height: 7vw;
   padding: 5px;
@@ -119,7 +127,7 @@ main .category2 {
   justify-content: space-evenly;
   text-transform: uppercase;
 }
-main .category2 .box {
+.category2 .box {
   background-image: url(./men.png);
   width: 22%;
   height: 60%;
@@ -132,14 +140,14 @@ main .category2 .box {
   text-align: center;
   padding: 20px;
 }
-main .category2 .box p {
+.category2 .box p {
   font-size: 15px;
   font-family: helvetica2;
   color: white;
   position: absolute;
   top: 36%;
 }
-main .category2 .box2 {
+.category2 .box2 {
   background-image: url(./women.png);
   width: 22%;
   height: 80%;
@@ -151,13 +159,13 @@ main .category2 .box2 {
   text-align: center;
   padding: 20px;
 }
-main .category2 .box2 p {
+.category2 .box2 p {
   font-size: 15px;
   color: white;
   position: absolute;
   top: 36%;
 }
-main .category2 .box3 {
+.category2 .box3 {
   background-image: url(./kids.png);
   width: 22%;
   height: 80%;
@@ -169,13 +177,14 @@ main .category2 .box3 {
   text-align: center;
   padding: 20px;
 }
-main .category2 .box3 p {
+.category2 .box3 p {
   font-size: 15px;
   color: white;
   position: absolute;
   top: 36%;
 }
-main .products .product-images img {
+
+.products .product-images img {
   width: 150px;
   height: 200px;
   -o-object-fit: contain;

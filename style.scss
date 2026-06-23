@@ -98,10 +98,14 @@ main{
     flex: 1; 
     color: white;
 
-    span{
-        color: grey;
-        font-family: helvetica3;
+    input{
+          background:radial-gradient(at bottom ,white,black 60%);
+          border: none;
+          height: 100%;
+          width: 100%;
+          padding: 3px 20px;
     }
+  }
     }
     .profile{
       display: flex;
@@ -197,5 +201,4 @@ main{
         }
     }
     }
-}
 
