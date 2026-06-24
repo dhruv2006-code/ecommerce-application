@@ -214,6 +214,13 @@ main .suggest input {
   text-align: center;
   padding: 20px;
 }
+.products .product-images .image :hover {
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  cursor: pointer;
+  position: absolute;
+}
 .products .product-images .image2 {
   grid-column: 3/5;
   grid-row: 1/1;
@@ -226,4 +233,46 @@ main .suggest input {
   text-align: center;
   padding: 20px;
   background-position: center;
+}
+.products .pricing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: white;
+  width: 25vw;
+  height: 100%;
+  position: absolute;
+  top: 70%;
+  gap: 4vw;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 3vh;
+}
+.products .pricing .men {
+  grid-column: 1/1;
+}
+.products .pricing .men h6 {
+  font-size: 10px;
+  color: grey;
+}
+.products .pricing .men p {
+  font-size: 10px;
+}
+.products .pricing .men del {
+  color: red;
+}
+.products .pricing .women {
+  grid-column: 2/2;
+}
+.products .pricing .women h6 {
+  font-size: 10px;
+  color: grey;
+}
+.products .pricing .women p {
+  font-size: 10px;
+}
+.products .pricing .women del {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
